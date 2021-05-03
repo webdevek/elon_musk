@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "img": "img/cadr/img_post_11.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Eugenia",
+      "postdate": "July 24, 2020"
+    },
+    {
+      "img": "img/cadr/img_post_12.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Artem",
+      "postdate": "June 12, 2020"
+    },
+    {
+      "img": "img/cadr/img_post_13.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Boris",
+      "postdate": "May 24, 2020"
+    },
+    {
+      "img": "img/cadr/img_post_14.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Max",
+      "postdate": "July 24, 2020"
+    },
+    {
+      "img": "img/cadr/img_post_15.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Olga",
+      "postdate": "July 24, 2020"
+    },
+    {
+      "img": "img/cadr/img_post_21.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Ann",
+      "postdate": "July 24, 2020"
+    },
+    {
+      "img": "img/cadr/img_post_22.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Ghorge",
+      "postdate": "July 24, 2020"
+    },
+    {
+      "img": "img/cadr/img_post_23.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Phill",
+      "postdate": "July 24, 2020"
+    },
+    {
+      "img": "img/cadr/img_post_24.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Bill",
+      "postdate": "July 24, 2020"
+    },
+    {
+      "img": "img/cadr/img_post_25.jpg",
+      "altimg": "image",
+      "title": "BRIDGE'",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis eos temporibus porro molestias voluptatem eligendi dolorum excepturi voluptates. Consectetur corporis unde laudantium officiis porro, aliquam sit reiciendis dolore consequuntur!",
+      "postname": "Alex",
+      "postdate": "July 24, 2020"
+    }
+  ],
+  "requests": [
+  ]
+}
