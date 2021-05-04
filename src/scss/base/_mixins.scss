@@ -1,0 +1,52 @@
+@mixin button {
+   width: 250px;
+   height: 60px;
+   transform: skewX(-15deg);
+   background: #C2AB81;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 700;
+   font-size: 12px;
+   cursor: pointer;
+   border:none;
+   text-transform: uppercase;
+   transition: all 0.5s;
+   color: #fff;
+   div {
+      transform: skewX(15deg);
+   }
+   &:hover {
+      box-shadow: -4px 4px 5px 3px #fff;
+      border: 2px solid #C2AB81;
+      &::after {
+         display: none;
+      }
+   }
+   &::after {
+      content: '';
+      position: absolute;
+      right: -10px;
+      width: 3px;
+      height: 60px;
+      background: #fff;
+   }
+}
+
+
+@mixin phone {
+   width: 80px;
+   height: 60px;
+   margin-right: 20px;
+   transform: skewX(-15deg);
+   background: none;
+   border: 1px solid #FFFFFF;
+   opacity: 0.4;
+   cursor: pointer;
+   div {
+      transform: skewX(15deg);
+   }
+   &:hover {
+      border: 2px solid #FFFFFF;
+   }
+}

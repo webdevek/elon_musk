@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@600;700&display=swap');
+@import 'base/vars';
+@import 'base/mixins';
+// @import 'base/animated';
+// @import 'blocks/nav.scss';
+
+@import 'blocks/header';
+@import 'blocks/modal';
+@import 'blocks/hamburger';
+@import 'blocks/carousel';
+@import 'blocks/cards';
+@import "blocks/media";
+
+* {
+   font-family: 'Montserrat', sans-serif;
+}
+
+html {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+*,*::after,*::before{
+   box-sizing: inherit;
+}
+body {
+   position: relative;
+   margin: 0; 
+   min-width: 320px;
+   overflow-x: auto;
+   background: #131313;
+}
+
+.container {
+   padding: 0;
+}
+.show {
+   display:block;
+}
+.hide {
+   display:none;
+}
+.fade {
+   animation-name: fade;
+   animation-duration: 1.5s;
+}
+@keyframes fade {
+   from {
+      opacity: 0.1;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+
+

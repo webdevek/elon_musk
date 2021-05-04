@@ -1,0 +1,123 @@
+.carousel {
+   background: #131313;
+
+   .tabcontainer {
+      position: relative;
+      width: 100%;
+      height: calc(100vh - 110px);
+   }
+
+   .tabcontent {
+      width: 100%;
+      height: 100vh;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      padding-bottom: 50px;
+
+      &_image1 {
+         background: url('../img/bg_main.jpg') center center/cover no-repeat;
+      }
+
+      &_image2 {
+         background: url('../img/bd_car.jpg') center center/cover no-repeat;
+      }
+
+      &_image3 {
+         background: url('../img/bg_dollars.jpg') center center/cover no-repeat;
+      }
+
+      &__inner {
+         display: flex;
+         justify-content: flex-start;
+         align-items: flex-start;
+         height: 100%;
+      }
+   }
+
+   .tabfeatures {
+      color: #fff;
+      padding-bottom: 0;
+
+      h2 {
+         margin: 0;
+         margin-bottom: 40px;
+         font-weight: 700;
+         font-size: 42px;
+         line-height: 51px;
+         text-transform: uppercase;
+         max-width: 686px;
+      }
+
+      &__descr {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 150%;
+         margin-bottom: 40px;
+         max-width: 686px;
+      }
+
+      &__btn {
+         width: 260px;
+         height: 60px;
+         transform: skewX(-20deg);
+         background: #C2AB81;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-weight: 700;
+         font-size: 12px;
+         text-transform: uppercase;
+         transition: all 0.5s;
+         cursor: pointer;
+
+         div {
+            transform: skewX(20deg);
+         }
+
+         &:hover {
+            box-shadow: -4px 4px 5px 3px #fff;
+
+            &::after {
+               display: none;
+            }
+         }
+
+         &::after {
+            content: '';
+            position: absolute;
+            right: -10px;
+            width: 3px;
+            height: 60px;
+            background: #fff;
+         }
+
+      }
+   }
+
+   .tabheader {
+      position: absolute;
+      bottom: 177px;
+      right: 100px;
+      color: #fff;
+      max-width: 686px;
+      cursor: pointer;
+
+      &__item {
+         margin-bottom: 15px;
+         font-weight: 400;
+         font-size: 14px;
+         text-align: right;
+         text-transform: uppercase;
+         opacity: 0.6;
+
+         &:last-child {
+            margin-bottom: 0;
+         }
+
+         &_active {
+            font-weight: bold;
+            opacity: 1;
+         }
+      }
+   }
+}

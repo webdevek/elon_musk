@@ -1,0 +1,33 @@
+.header {
+   background-color: #131313;
+   .container {
+      max-width: 1720px;
+      margin: 0 auto;
+   }
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      &_wrap {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+      }
+   }
+   .callback {
+      display: flex;
+      &__phone {
+         @include phone;
+      }
+      
+      &__btn {
+         @include button;
+      }
+   }
+}
+.nav {
+   padding-top: 30px;
+   padding-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+}
