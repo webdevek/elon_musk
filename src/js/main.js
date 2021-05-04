@@ -32,7 +32,6 @@ window.addEventListener('DOMContentLoaded', function() {
       });
    });
 
-
    // const modalTrigger = document.querySelectorAll('[data-modal]'),
    //    modal = document.querySelector('.modal'),
    //    modalCloseBtn = document.querySelector('[data-close]');
@@ -49,5 +48,4 @@ window.addEventListener('DOMContentLoaded', function() {
    //    modal.classList.remove('show');
    //    document.body.style.overflow = '';
    // });
-
 });
