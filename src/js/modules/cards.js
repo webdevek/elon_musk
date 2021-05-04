@@ -2,7 +2,7 @@ import {getResource} from '../services/services';
 
 
 function cards() {
-   const btn = document.querySelector('cards__btn');
+//    const btn = document.querySelector('cards__btn');
    class MenuCard {
       constructor(src, alt, id, title, body, parentSelector, ...classes) {
          this.src = src;
@@ -44,11 +44,12 @@ function cards() {
          });
       });
 
-   function openCards() {
-         btn.addEventListener('click', () => cards());
+//    function openCards() {
+//          btn.addEventListener('click', () => cards());
    
-   }
-   openCards();
+//    }
+//    openCards();
+//    пятая строка и предыдущие закоментированные добавлены мною (попытка привязки кнопки)
 }
 
 export default cards;
